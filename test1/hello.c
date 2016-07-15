@@ -7,6 +7,6 @@ void main(int argc, char *argv[])
     while(argc > 0)
     {
         argc--;
-        printf("Your command is %s, welcome to linux world!\n",argv[i++]);
+        printf("Your command is [%s], welcome to linux world!\n",argv[i++]);
     } 
 }
